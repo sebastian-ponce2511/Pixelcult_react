@@ -1,0 +1,47 @@
+$fuentes: 'Montserrat', sans-serif;
+  
+    /* Colores */
+    $azul: #3d65e8; 
+    $rojo: #ff3d3d;
+    $gris: #a0a0a0;
+    $grisBarra: #f6f6f6;
+    $verde: #13c701;
+    $blanco: #fff;
+ 
+  
+  html {
+      box-sizing: border-box;
+      font-size: 62.5%;
+    }
+    *, *:before, *:after {
+      box-sizing: inherit;
+      }
+  
+      body {
+        font-family: $fuentes;
+        font-size: 1.6rem;
+        line-height: 2;
+    }
+  
+  /* Globales */
+  
+  .contenedor {
+    max-width: 120rem;
+    width: 95%;
+    
+    margin: 0 auto;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h2 {
+    font-family: $fuentes;
+    font-weight: 700;
+    color: $azul;
+  }

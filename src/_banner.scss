@@ -1,0 +1,48 @@
+.banner { 
+    max-width: 100%;
+    background-image:url(../src/images/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 50rem;
+  }
+  
+  .contenido_texto {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    box-sizing:unset;
+    margin-left: auto;
+    margin-right: 25rem;
+  }
+  
+  
+  .texto_banner {
+    font-family: $fuentes;
+    font-size: 5.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    color: $blanco;
+    padding-top: 6rem; 
+    align-items: flex-end;   
+  }
+  
+   .boton_banner {
+    margin: 3rem auto 0 auto;
+    padding: 1.5rem 3.5rem;
+    font-family: $fuentes;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: solid white 5px;
+    background: transparent;
+    cursor: pointer;
+    a {
+        color: #fff;
+      }
+
+      &:hover{
+    background: $rojo;
+    } 
+  }

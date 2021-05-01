@@ -1,0 +1,30 @@
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .navegacion {
+    display: flex;
+
+    a {
+        font-family: $fuentes;
+        font-weight: 600;
+        color: $gris;
+        margin: 2.5rem;
+
+        &:hover {
+            color: $azul;
+        }
+      }
+
+  }
+  
+  .links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }

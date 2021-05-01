@@ -1,5 +1,5 @@
 
-import './App.css';
+import './styles.css';
 import Navlinks from './Navlinks.js';
 import ProductosLista from './ProductosLista.js';
 import Categorias from './Categorias.js';

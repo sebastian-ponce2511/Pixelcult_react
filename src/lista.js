@@ -35,7 +35,7 @@ module.exports = [
         'divclass' : 'cuadro_monkey',
         'foto' : "cuadro_monkey.png",
         'texto' : 'Cuadro monkey island',
-        'precio' : '$1499.99',
+        'precio' : '$1599.99',
 
     },
 ]

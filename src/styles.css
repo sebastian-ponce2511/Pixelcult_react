@@ -1,0 +1,390 @@
+/* Colores */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+/* Globales */
+.contenedor {
+  max-width: 120rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #3d65e8;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.navegacion {
+  display: flex;
+}
+.navegacion a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #a0a0a0;
+  margin: 2.5rem;
+}
+.navegacion a:hover {
+  color: #3d65e8;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.banner {
+  max-width: 100%;
+  background-image: url(../src/images/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 50rem;
+}
+
+.contenido_texto {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: unset;
+  margin-left: auto;
+  margin-right: 25rem;
+}
+
+.texto_banner {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  color: #fff;
+  padding-top: 6rem;
+  align-items: flex-end;
+}
+
+.boton_banner {
+  margin: 3rem auto 0 auto;
+  padding: 1.5rem 3.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: solid white 5px;
+  background: transparent;
+  cursor: pointer;
+}
+.boton_banner a {
+  color: #fff;
+}
+.boton_banner:hover {
+  background: #ff3d3d;
+}
+
+.barra_items {
+  background-color: #f6f6f6;
+  box-shadow: 0px 1px 5px #a0a0a0;
+}
+
+.caja_iconos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icono {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.icono p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #a0a0a0;
+  margin-left: 2rem;
+}
+
+.productos {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.descripcion {
+  font-family: "Montserrat", sans-serif;
+  color: #a0a0a0;
+  font-weight: 600;
+  text-align: center;
+}
+
+.precio {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.comprar {
+  background-color: #3d65e8;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.comprar:hover {
+  background-color: #ff3d3d;
+}
+
+.monto {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #13c701;
+}
+
+.categorias {
+  margin-bottom: 8rem;
+}
+
+.caja_categorias {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.caja_categorias h2 {
+  color: #fff;
+  font-size: 4rem;
+  text-align: center;
+  align-items: center;
+  margin-top: 6rem;
+  text-shadow: 0px 0px 10px black;
+}
+.caja_categorias a :hover {
+  color: #f5e612;
+}
+
+.remeras {
+  background-image: url(../src/images/remera_doom.png);
+  height: 20rem;
+  border-radius: 20px;
+}
+
+.gorras {
+  background-image: url(../src/images/gorra_dk.png);
+  height: 20rem;
+  border-radius: 20px;
+}
+
+.cuadros {
+  background-image: url(../src/images/cuadros.png);
+  height: 20rem;
+  border-radius: 20px;
+}
+
+.tazas {
+  background-image: url(../src/images/tazas.png);
+  height: 20rem;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: #ff3d3d;
+  height: auto;
+  padding-bottom: 3rem;
+}
+
+.formulario {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1rem;
+  align-items: center;
+}
+.formulario h3 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+}
+
+input {
+  width: 450px;
+}
+
+.boton_formulario {
+  margin-left: 3rem;
+  font-size: 1.5rem;
+  padding: 0.8rem 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: solid white 2px;
+  background: none;
+  cursor: pointer;
+  color: #fff;
+}
+.boton_formulario:hover {
+  background-color: #3d65e8;
+}
+
+.segundo_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.nav_footer a {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin: 2.5rem;
+}
+
+.redes {
+  margin-top: 1rem;
+}
+
+.copy {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin-top: 7rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .barra {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-top: 3rem;
+  }
+
+  .links {
+    padding: 0;
+  }
+
+  .navegacion {
+    margin: 0 auto;
+  }
+
+  .navegacion a {
+    margin: 2rem;
+  }
+
+  .barra {
+    margin: 0;
+  }
+
+  .banner {
+    background-position-x: left;
+    height: auto;
+  }
+
+  .contenido_texto {
+    margin: auto;
+    padding-bottom: 6rem;
+  }
+
+  .texto_banner {
+    font-size: 3rem;
+    text-shadow: 0 0 10px #444444;
+  }
+
+  .boton_banner {
+    font-size: 1.5rem;
+    margin: 1rem auto 0 auto;
+    padding: 1rem 3rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: solid white 4px;
+    background: #3d65e8;
+    cursor: pointer;
+  }
+  .boton_banner:hover {
+    background-color: #ff3d3d;
+  }
+
+  .caja_iconos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+  }
+
+  .icono {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .icono img {
+    width: 20%;
+    height: 20%;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+  .icono p {
+    font-family: "Montserrat", sans-serif;
+    color: #a0a0a0;
+    margin: 0 auto;
+  }
+
+  .productos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 3.5rem 0 3.5em;
+  }
+
+  .remera_sf {
+    background-position-x: left;
+    background-position: 30%;
+  }
+
+  .formulario {
+    flex-direction: column;
+  }
+
+  .nav_footer {
+    display: flex;
+  }
+  .nav_footer a {
+    margin: 2rem;
+  }
+
+  .redes {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
