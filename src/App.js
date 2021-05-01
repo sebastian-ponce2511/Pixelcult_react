@@ -36,7 +36,7 @@ function App() {
       <main>
           <div className="banner">
               <div className="contenido_texto">
-                  <h1 className="texto_banner">Nuevos modelos en stock!</h1>
+                  <h1 className="texto_banner">Prueba</h1>
                   <button className="boton_banner">
                       <a href="#x">
                           Conseguilos!
