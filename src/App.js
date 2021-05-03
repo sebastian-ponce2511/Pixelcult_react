@@ -1,9 +1,9 @@
 
-import './styles.css';
+// import './styles.css';
 import Navlinks from './Navlinks.js';
 import ProductosLista from './ProductosLista.js';
 import Categorias from './Categorias.js';
-
+import './app.scss';  //Compila sin tener que cambiar de consola
 
 function App() {
     
