@@ -1,32 +1,32 @@
 module.exports = [
     {
-        'href' : '#index.html',
+        'href' : '#index',
         'clase': 'link_nav',
         'nombre' : 'Inicio'
 
     },
     
     {
-        'href' : '#productos.html',
+        'href' : '#productos',
         'clase': 'link_nav',
-        'nombre' : 'Productos'
+        'nombre' : 'Productos',
 
     },
 
     {
-        'href' : '#contacto.html',
+        'href' : '#contacto',
         'clase': 'link_nav',
         'nombre' : 'Contacto'
     },
 
     {
-        'href' : '#crea_tu_cuenta.html',
+        'href' : '#crea_tu_cuenta',
         'clase': 'link_nav',
         'nombre' : 'Creá tu cuenta'
     },
 
     {
-        'href' : '#ingresa.html',
+        'href' : '#ingresa',
         'clase': 'link_nav',
         'nombre' : 'Ingresá'
     },

@@ -1,14 +1,25 @@
+.header {
+  margin-bottom: -3rem;
+  box-shadow: 0 3px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
 .barra {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1rem;
-    background-color: white;
-    margin-bottom: 1rem;
+    margin-bottom: -3rem;
   }
-  
+
+
   .navegacion {
     display: flex;
+
+    ul {
+      display: flex;
+      list-style: none;
+      margin-top: 3.5rem;
+      padding:0;
+    }
 
     a {
         font-family: $fuentes;
@@ -20,11 +31,31 @@
             color: $azul;
         }
       }
+    }
 
-  }
-  
-  .links {
-    display: flex;
-    list-style: none;
-    align-items: center;
-  }
+    .submenu {
+      position: absolute; 
+    }
+
+    .item .submenu {
+      flex-direction: column;
+      text-align: center;
+      display: none;
+      margin: 0;
+      box-shadow: 0 8px 10px 0px rgba(0, 0, 0, 0.2);
+      
+      :last-child {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+    }
+
+    .submenu li {
+      line-height: 5.5rem;
+      background:white;
+    }
+
+    .item:hover .submenu{
+    display: block;
+}
+

@@ -80,12 +80,17 @@
         margin: 0 auto;
       }
     }
-  
+
     .productos {
       display: flex;
-      flex-wrap: wrap;
-      margin:0 3.5rem 0 3.5em;
+      flex-direction: row;
     }
+  
+   .caja {
+     display: flex;
+     flex-wrap: wrap;
+     margin:0 3.5rem 0 3.5em;
+   }
   
     .remera_sf {
       background-position-x: left;

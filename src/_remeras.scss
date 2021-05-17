@@ -1,0 +1,80 @@
+.destacados {
+    display: flex;
+    flex-direction: row;
+      h2 {
+        margin-top: 5rem;
+      }
+  }
+  
+  .cajaRemeras {
+    margin-top: 12rem;
+    margin-bottom: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .productosRemeras {
+    padding: 0.5rem;
+    margin-bottom: 4rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+      &:hover {
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+      }
+    }
+    
+    
+    .descripcion {
+      font-family: $fuentes;
+      color: $gris;
+      font-weight: 600;
+      text-align: center;
+    }
+    
+    .precio {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    
+    .comprar {
+      background-color: $azul;
+      padding: 0.5rem 1.5rem;
+      border-radius: 25px;
+      color: #fff;
+      font-family: $fuentes;
+      &:hover {
+      background-color: $rojo;
+      }
+    }
+    
+    .monto {
+      font-family: $fuentes;
+      font-size: 18px;
+      font-weight: 400;
+      color: $verde;
+    }
+  
+    .boton_productos {
+      margin: 3rem auto 0 auto;
+      padding: 1.5rem 3.5rem;
+      font-family: $fuentes;
+      font-weight: 700;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 10px;
+      background-color: $azul;
+      cursor: pointer;
+      
+      a {
+          color: #fff;
+        }
+  
+        &:hover{
+      background: $rojo;
+      } 
+    }

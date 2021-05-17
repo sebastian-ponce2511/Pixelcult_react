@@ -1,4 +1,5 @@
 import datosCategorias from './datosCategorias.js'
+import {Link} from 'react-router-dom'
 
 
 function Categorias() {
@@ -8,9 +9,9 @@ function Categorias() {
             {
                 datosCategorias.map(function(dato) {
                     return <div className={dato.clase}>
-                    <a href="#x">
+                    <Link to={dato.link}>
                         <h2>{dato.nombre}</h2>
-                    </a>
+                    </Link>
                 </div>
                 })
             }

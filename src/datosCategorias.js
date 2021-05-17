@@ -1,22 +1,26 @@
 module.exports = [
     {
         'clase' : 'remeras',
-        'nombre' : 'Remeras'
+        'nombre' : 'Remeras',
+        'link' : '/Remeras'
     },
 
     {
         'clase' : 'gorras',
-        'nombre' : 'Gorras'
-    },
-
-    {
-        'clase' : 'cuadros',
-        'nombre' : 'Cuadros'
+        'nombre' : 'Gorras',
+        'link' : '/Remeras' 
     },
 
     {
         'clase' : 'tazas',
-        'nombre' : 'Tazas'
+        'nombre' : 'Tazas',
+        'link' : '/Tazas'
+    },
+
+    {
+        'clase' : 'cuadros',
+        'nombre' : 'Cuadros',
+        'link' : '/Cuadros'
     },
 
 ]

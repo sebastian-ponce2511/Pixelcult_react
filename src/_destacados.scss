@@ -1,7 +1,30 @@
+.destacados {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+    h2 {
+      margin-top: 5rem;
+    }
+}
+
+.caja {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .productos {
-    display: flex;
-    gap: 2rem;
-    justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 4rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+    &:hover {
+      box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+      border-radius: 20px;
+    }
   }
   
   
@@ -34,4 +57,24 @@
     font-size: 18px;
     font-weight: 400;
     color: $verde;
+  }
+
+  .boton_productos {
+    margin: 3rem auto 0 auto;
+    padding: 1.5rem 3.5rem;
+    font-family: $fuentes;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    background-color: $azul;
+    cursor: pointer;
+    
+    a {
+        color: #fff;
+      }
+
+      &:hover{
+    background: $rojo;
+    } 
   }
