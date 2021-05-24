@@ -26,7 +26,7 @@ function Header() {
                                       </ul>
                                   
                                   </li>
-                                  <li className="item"><Link to="#x">Contacto</Link></li>
+                                  <li className="item"><Link to="/Contacto">Contacto</Link></li>
                                   <li className="item"><Link to="#x">Creá tu cuenta</Link></li>
                                   <li className="item"><Link to="#x">Ingresá</Link></li>
                               </ul>
